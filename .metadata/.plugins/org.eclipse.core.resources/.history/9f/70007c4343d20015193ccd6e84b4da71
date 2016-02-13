@@ -1,0 +1,9 @@
+package com.cimpapps.part1.chapter1
+
+class FromJtoG {
+	public static void main(String[] args){
+		for (int i = 0; i<3; i++) {
+			System.out0.print("ho");
+		}
+	}
+}
