@@ -1,0 +1,21 @@
+package com.cimpapps.part1.chapter1
+
+class FromJtoG implements Runnable {
+	
+	static main(args){
+		Thread t = new Thread(new FromJtoG());
+	}//end of main
+		
+
+	public void run() {
+		println "Catalin este cel mai tare"
+		try {
+					Thread.sleep(3000)
+
+		} catch (Exception e) {
+			e.printStackTrace()
+		}
+	}
+	
+	
+}//end of class
