@@ -1,0 +1,24 @@
+package com.cimpapps
+
+import java.awt.Graphics
+
+import javax.swing.JFrame
+import javax.swing.JPanel
+
+class Test1 extends JPanel{
+	
+	static main(args){
+		JFrame window = new JFrame("cimpapps.com");
+		JPanel panel = new Test1();
+		window.setContentPane(panel);
+		window.setSize(240,400);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		window.setVisible(true);
+	}
+	@Override
+	protected void paintComponent(Graphics g) {
+		// TODO Auto-generated method stub
+		super.paintComponent(g);
+		g.fillRect(50,50,50,50);
+	}
+}
