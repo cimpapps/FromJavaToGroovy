@@ -6,7 +6,7 @@ class FromJtoG {
 		println printReverse("cimpapps.com")
 	}//end of main
 		
-	static def printReverse(str){
+	def printReverse(str){
 		//check if str is null first
 		str?.reverse();
 		//in java we had this:
