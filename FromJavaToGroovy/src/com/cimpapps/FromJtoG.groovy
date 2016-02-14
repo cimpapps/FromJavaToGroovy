@@ -1,0 +1,41 @@
+package com.cimpapps
+
+//Java insists that you provide a boolean expression for the condition
+//part of the if statement
+//This is Groovy boolean evaluation
+class FromJtoG {
+	
+	//Groovy boolean evaluation
+	static main(args){
+		def i = 4;
+		
+		//Groovy evaluates numbers different than 0 to true
+		if (i)
+			println i;
+		i = 0;
+		if (i)
+			println i;
+			
+		i = "Hello";
+		if(i)
+			println i;
+			
+		i = null;
+		//Groovy evaluates null objects to false
+		if(i)
+			println true;
+		else
+			println false;
+		
+		//Collections and maps that are null or with no elements in it 
+		// are evaluated as false	
+		def lst0 = null
+		println lst0 ? 'lst0 true' : 'lst0 false'
+		def lst1 = [1, 2, 3]
+		println lst1 ? 'lst1 true' : 'lst1 false'
+		def lst2 = []
+		println lst2 ? 'lst2 true' : 'lst2 false'
+		
+	}	
+	
+}

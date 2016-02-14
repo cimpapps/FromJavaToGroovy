@@ -1,0 +1,33 @@
+package com.cimpapps
+
+//Java insists that you provide a boolean expression for the condition
+//part of the if statement
+//This is Groovy boolean evaluation
+class FromJtoG {
+	
+	//Groovy boolean evaluation
+	static main(args){
+		def i = 4;
+		
+		//Groovy evaluates numbers different than 0 to true
+		if (i)
+			println i;
+		i = 0;
+		if (i)
+			println i;
+			
+		i = "Hello";
+		if(i)
+			println i;
+			
+		i = null;
+		//Groovy evaluates null objects to false
+		if(i)
+			println true;
+		else
+			println false;
+			
+		
+	}	
+	
+}

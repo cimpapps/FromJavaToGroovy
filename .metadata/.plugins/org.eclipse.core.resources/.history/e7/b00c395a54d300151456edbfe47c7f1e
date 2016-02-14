@@ -1,0 +1,14 @@
+package com.cimpapps
+
+class FromJtoG {
+	
+	//Groovy boolean evaluation
+	static main(args){
+		int i = 4;
+		
+		//Groovy evaluates numbers different than 0 to true
+		if (i)
+			println i;
+	}
+	
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.codehaus.groovy.eclipse.groovyScriptLaunchConfiguration">
+<stringAttribute key="org.codehaus.groovy.eclipse.launch.runType" value="com.cimpapps.FromJtoG"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="D:\groovyWorkspace\FromJavaToGroovy\bin"/>
+<listEntry value="C:\Users\cimbonda\.p2\pool\plugins\org.codehaus.groovy_2.4.3.xx-201601131831-e45\lib\groovy-all-2.4.3.jar"/>
+<listEntry value="C:\Users\cimbonda\.p2\pool\plugins\org.codehaus.groovy_2.4.3.xx-201601131831-e45\lib\bsf-2.4.0.jar"/>
+<listEntry value="C:\Users\cimbonda\.p2\pool\plugins\org.codehaus.groovy_2.4.3.xx-201601131831-e45\lib\ivy-2.3.0-sources.jar"/>
+<listEntry value="C:\Users\cimbonda\.p2\pool\plugins\org.codehaus.groovy_2.4.3.xx-201601131831-e45\lib\ivy-2.3.0.jar"/>
+<listEntry value="C:\Users\cimbonda\.p2\pool\plugins\org.codehaus.groovy_2.4.3.xx-201601131831-e45\lib\servlet-api-2.4.jar"/>
+<listEntry value="C:\Users\cimbonda\.groovy\greclipse\global_dsld_support"/>
+<listEntry value="C:\Users\cimbonda\.p2\pool\plugins\org.codehaus.groovy_2.4.3.xx-201601131831-e45\plugin_dsld_support\"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.codehaus.groovy.tools.GroovyStarter"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--classpath &quot;${workspace_loc:\FromJavaToGroovy}\src;${workspace_loc:\FromJavaToGroovy}\bin&quot; --main groovy.ui.GroovyMain &quot;${resource_loc:/FromJavaToGroovy/src/com/cimpapps/FromJtoG.groovy}&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FromJavaToGroovy"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" -Dgroovy.home=&quot;${groovy_home}&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:\FromJavaToGroovy}"/>
+</launchConfiguration>

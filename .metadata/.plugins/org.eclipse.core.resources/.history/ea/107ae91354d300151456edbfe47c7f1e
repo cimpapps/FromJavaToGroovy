@@ -1,0 +1,10 @@
+package com.cimpapps
+
+class FromJtoG {
+	
+	//Groovy boolean evaluation
+	String obj = "hello"
+	if(obj)
+		println obj
+	
+}
